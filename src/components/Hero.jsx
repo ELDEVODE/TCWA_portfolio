@@ -7,7 +7,7 @@ export default function Hero() {
         <div className="hero-content text-center flex flex-col items-center justify-center w-full">
           <div className="max-w-md">
             <motion.h1
-              className="text-6xl font-bold text-primary"
+              className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-primary"
               initial={{ opacity: 0, scale: 0.8 }}
               whileInView={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.8 }}
@@ -15,7 +15,7 @@ export default function Hero() {
               The Confident Woman Africa
             </motion.h1>
             <motion.p
-              className="py-6 text-lg"
+              className="py-6 text-base sm:text-lg md:text-xl lg:text-2xl"
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.5 }}
